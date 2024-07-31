@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding:0;
+    box-sizing: border-box;
+   
+    
+}
+body{
+    background-color: grey;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+    border: 1px solid black;
+    padding:0px 5px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;;
+    
+}
+.text input{
+    width:500px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.buttons{
+    display: flex;
+    gap:10px;
+    padding: 5px 80px;
+   
+    
+}
+
+ button{
+    padding:5px 10px;
+    border:none;
+    background-color: transparent;
+   
+}
+.b button{
+    display:flex;
+    align-items: center;
+    
+    border: 1px solid black;
+}
+.items{
+    display: flex;
+    width: 100%;
+    gap:30px;
+    background-color: white;
+}
+ .items img{
+    padding:10px;
+    border: 1px solid black;
+    height: 150px;
+    width:150px;
+}
+.items p{
+    text-align: center;
+}
